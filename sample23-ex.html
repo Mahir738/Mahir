@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Table-CSS</title>
+    <style>
+      table{
+        border-collapse: seperate;
+        border-spacing: 20px;
+      }
+      th{
+        border:solid 1px  black;
+        border-radius: 10px 10px 10px 10px;
+        width: 120px;
+        height: 30px;
+        padding: 5px;
+        background-color: chartreuse;}
+        .tb1_corner{ border: none;
+        background-color: white;}
+        td{
+          border:solid 1px  black;
+         
+          text-align: right;
+          box-shadow: 5px 5px 10px chartreuse;
+
+       
+        width: 120px;
+        height: 30px;
+        padding: 5px;
+        }
+         caption{caption-side: bottom;
+         text-align: right;}
+         #tbl_corner{
+          background-color: white;
+          border: none;
+          
+         }
+</style>
+
+
+
+  </head>
+  <body>
+    <h1>入場料</h1>
+    <table>
+      <caption>2019/10</caption>
+      <tr>
+        <th id="tbl_corner"></th>
+        <th>平日</th>
+        <th>土曜</th>
+        <th>日曜</th>
+      </tr>
+      <tr>
+        <th>大人</th>
+        <td>1,500円</td>
+        <td>1,800円</td>
+        <td>1,900円</td>
+      </tr>
+      <tr>
+        <th>高校生</th>
+        <td>1,300円</td>
+        <td>1,400円</td>
+        <td>1,500円</td>
+      </tr>
+      <tr>
+        <th>中学生</th>
+        <td>900円</td>
+        <td>1,100円</td>
+        <td>1,200円</td>
+      </tr>
+      <tr>
+        <th>小学生</th>
+        <td>500円</td>
+        <td>800円</td>
+        <td>1,000円</td>
+      </tr>
+    </table>
+
+  </body>
+</html>
